@@ -1,6 +1,6 @@
 using System;
 
-namespace NekoFlow.FSM
+namespace TRnK.Flow
 {
     public static class StateMachineExtensions
     {

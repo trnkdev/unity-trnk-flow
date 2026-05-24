@@ -1,4 +1,4 @@
-namespace NekoFlow.FSM
+namespace TRnK.Flow
 {
     public interface IState
     {

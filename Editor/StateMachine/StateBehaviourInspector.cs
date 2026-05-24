@@ -8,7 +8,7 @@ using UnityEngine;
 using Sirenix.OdinInspector.Editor;
 #endif
 
-namespace NekoFlow.FSM
+namespace TRnK.Flow
 {
     [CustomEditor(typeof(StateBehaviour), true)]
     internal class StateBehaviourInspector :
@@ -18,7 +18,7 @@ namespace NekoFlow.FSM
         Editor              // Fallback to normal Unity inspector
 #endif
     {
-        private const string RuntimeFoldoutStateKeyPrefix = "NekoFlow.StateBehaviourInspector.RuntimeFoldout";
+        private const string RuntimeFoldoutStateKeyPrefix = "TRnK.Flow.StateBehaviourInspector.RuntimeFoldout";
 
         // Invalidated when the editor skin changes (e.g. Light ↔ Dark mode switch).
         private static GUISkin _lastSkin;

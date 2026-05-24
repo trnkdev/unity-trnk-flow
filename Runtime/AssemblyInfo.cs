@@ -1,3 +1,3 @@
 using System.Runtime.CompilerServices;
 
-[assembly: InternalsVisibleTo("NekoFlow.Editor")]
+[assembly: InternalsVisibleTo("TRnK.Flow.Editor")]

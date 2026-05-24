@@ -1,12 +1,10 @@
 {
-    "name": "NekoFlow.Editor",
-    "rootNamespace": "NekoFlow",
+    "name": "TRnK.Flow.Runtime",
+    "rootNamespace": "TRnK.Flow",
     "references": [
-        "GUID:704dfe0a49f1ab14899a865f65e3dc9e"
+        "GUID:22a704979ba6f464ea6e8bb476cdcc2b"
     ],
-    "includePlatforms": [
-        "Editor"
-    ],
+    "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
     "overrideReferences": false,

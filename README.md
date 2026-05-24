@@ -1,19 +1,19 @@
-# Neko Flow
+# TRnK Flow
 
 Lightweight state machine for Unity.
 
 ## Installation (Unity Package Manager)
 
-1. Install NekoLib:
+1. Install TRnK.Toolkit:
 
 ```
-https://github.com/boobosua/unity-nekolib.git
+https://github.com/boobosua/unity-trnk-toolkit.git
 ```
 
-2. Install NekoFlow:
+2. Install TRnK.Flow:
 
 ```
-https://github.com/boobosua/unity-neko-flow.git
+https://github.com/boobosua/unity-trnk-flow.git
 ```
 
 ## Quick start (state machine)
@@ -24,7 +24,7 @@ Derive from `StateBehaviour`, create your states, then declare transitions.
 Transition predicates usually belong here (using `GetTimeInCurrentState()`, sensors, cooldowns, etc.).
 
 ```csharp
-using NekoFlow.FSM;
+using TRnK.Flow;
 using UnityEngine;
 
 public class EnemyController : StateBehaviour
@@ -92,7 +92,7 @@ public class EnemyController : StateBehaviour
 Implement `IState` directly, or inherit `BaseState<TContext>`. `BaseState<T>` stores three protected fields for convenience: `_context` (the controller), `_gameObject`, and `_transform`.
 
 ```csharp
-using NekoFlow.FSM;
+using TRnK.Flow;
 using UnityEngine;
 
 public sealed class EnemyIdleState : BaseState<EnemyController>
@@ -116,7 +116,7 @@ public sealed class EnemyIdleState : BaseState<EnemyController>
 If you don’t want a component, use `StateMachine` directly:
 
 ```csharp
-using NekoFlow.FSM;
+using TRnK.Flow;
 using UnityEngine;
 
 public class EnemyBrain : MonoBehaviour
@@ -183,4 +183,4 @@ Available on both `StateBehaviour` and `StateMachine`:
 ## Requirements
 
 - Unity 6+
-- NekoLib
+- TRnK.Toolkit

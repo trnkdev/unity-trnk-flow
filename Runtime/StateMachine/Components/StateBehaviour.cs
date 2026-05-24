@@ -4,7 +4,7 @@ using UnityEngine;
 using Sirenix.OdinInspector;
 #endif
 
-namespace NekoFlow.FSM
+namespace TRnK.Flow
 {
     [DisallowMultipleComponent]
 #if ODIN_INSPECTOR

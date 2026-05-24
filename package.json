@@ -1,11 +1,11 @@
 {
-  "name": "com.nekoindie.nekounity.flow",
-  "version": "2.1.2",
-  "displayName": "Neko Flow",
+  "name": "com.trnkdev.unityflow",
+  "version": "2.2.0",
+  "displayName": "TRnK Flow",
   "description": "A flexible and simple state machine framework for Unity.",
   "unity": "2020.3",
   "dependencies": {
-    "com.nekoindie.nekounity.lib": "2.1.0"
+    "com.trnkdev.unitytoolkit": "2.5.0"
   },
   "author": {
     "name": "Nguyen Thanh Trung",
