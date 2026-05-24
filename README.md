@@ -7,13 +7,13 @@ Lightweight state machine for Unity.
 1. Install TRnK.Toolkit:
 
 ```
-https://github.com/boobosua/unity-trnk-toolkit.git
+https://github.com/trnkdev/unity-trnk-toolkit.git
 ```
 
 2. Install TRnK.Flow:
 
 ```
-https://github.com/boobosua/unity-trnk-flow.git
+https://github.com/trnkdev/unity-trnk-flow.git
 ```
 
 ## Quick start (state machine)
